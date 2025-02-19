@@ -1,6 +1,6 @@
 Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        MessageBox.Show("Bugün Çarşamba") 'Form1 başlatıldığında ekrana yazı gelir
+        MessageBox.Show("Bugün Güzel Bir Gün") 'Form1 başlatıldığında ekrana yazı gelir
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -8,7 +8,7 @@ Public Class Form1
     End Sub
 
     Private Async Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Me.Hide() 'Form1 gizler
+        Me.Hide() 'Me yazdığımda hangi form üzerinde çalışıyorsam o gizlenir
         Form2.Show() 'Form2 görünür hale gelir
     End Sub
 

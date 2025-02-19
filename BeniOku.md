@@ -1,1 +1,1 @@
-Bu github bilgisayar programlama dersinde işlenen kodları barındırmaktadır.
+Bu github bilgisayar programlama dersinde işlenmiş olan kodları barındırmaktadır.
